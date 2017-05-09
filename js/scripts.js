@@ -5,15 +5,15 @@ function Account(name, amount){
   this.amount = amount;
 }
 
-  Account.prototype.activity = function(amount) {
+  Account.prototype.activity = function(deposit, withdraw) {
     if (deposit >= 1) {
       this.amount += deposit;
     } else if (withdraw >= 1) {
       this.amount -= withdraw;
     } else {
-      this.amount;
+      this.amount
     }
-    return this.amount;
+      return this.amount;
   }
 
   // User Interface
