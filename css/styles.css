@@ -1,0 +1,10 @@
+.current {
+  text-align: center;
+  font-weight: bolder;
+  background-color: #dfe2de;
+}
+
+.formOne, .formTwo {
+  background-color: #edffe8;
+  border: 2px solid black;
+}

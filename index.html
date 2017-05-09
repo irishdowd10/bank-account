@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Bank Account</title>
+  </head>
+  <body>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Bank Account</h1>
+  </div>
+<div class="col-md-6 formOne">
+  <form id="register">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name">
+    </div>
+    <div class="form-group">
+      <label for="initialDeposit">Initial Deposit:</label>
+      <input type="number" class="form-control" id="initialDeposit">
+    </div>
+    <button type="submit" class="btn">Add New Account</button>
+  </form>
+</div>
+<div class="col-md-6 formTwo">
+  <form id="activity">
+    <div class="form-group">
+      <label for="deposit">Deposit Amount:</label>
+      <input type="text" class="form-control" id="deposit">
+    </div>
+    <div class="form-group">
+      <label for="withdrawal">Withdrawal:</label>
+      <input type="number" class="form-control" id="withdrawal">
+    </div>
+      <button type="submit" class="btn">Submit</button>
+  </form>
+</div>
+<div class="current">
+  <p class="currentBal"></p>
+  <p class="currentBal2"></p>
+</div>
+
+</div>
+  </body>
+</html>
